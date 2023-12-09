@@ -1,0 +1,10 @@
+print("ADDITION OF TWO NUMBERS")
+a=int(input("ENTER NUMBER a="))
+b=int(input("ENTER NUMBER b="))
+print(a)
+print(b)
+def add():
+    c=a+b
+    print(c)
+
+add()

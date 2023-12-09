@@ -1,0 +1,8 @@
+print("YOUR INFORMATION\n")
+def data():
+    print("NAME:-VISHAKHA KARANDE")
+    print("AGE:-19")
+
+data()
+print("\nEDIT YOUR INFORMATION")
+data()

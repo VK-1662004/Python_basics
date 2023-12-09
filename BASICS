@@ -1,0 +1,204 @@
+#Text editor like vs code give us a interface because of IDE to write code easily and debugging
+# Use for Comment in python
+#If we want to put multi-line comment for that just use 
+"""Python was created by Guido van Rossum, and first released on February 20, 1991. While you may know the python as a large snake, the name of the Python programming language comes from an old BBC television comedy sketch series called Monty Python's Flying Circus."""
+#Or here you can use '''-----''' this also.
+# Programming is a set of instruction use to tell computer to do a task
+# Programming language like java,python,c++,etc use for writing this program
+#compiler convert this source code(High level language) to Machine code(Low level language) that means the (Your code in any programming language) to (0110)
+#In python compiler convert source code to byte code and then converted to machine code by intepreter
+#Python is most famous,beginner-friendly,concise code,easy to read and understand ,open souce(Internet help and resources),versatile(Web development,ML,AI)language.
+#To print ->print()
+#next line->\n
+#Pardigm->opps,imperative(procedural) and functional programming language
+"""print("HELLO \nMY FRIENDS!!")
+print("3*4")
+print(3*4)"""
+#Identation -->space use to write code properly ,Python uses indentation to indicate a block of code
+#CLI->command line interface is a terminal ,it provides the REPL (Read,evaluate,print and loop)
+#varibles is a container where we store the value.
+#only contain a-z,0-9 and _(never start with number), it is case sensitive and no keywords used to write variable name.
+#a=10
+#b=3
+#datatype-> tells the type of data 
+#Python is dynamically typed so we not need to specifies the type of data it will understand by its own.
+# numeric(int =10,float=1.8,complex=2+3j
+# sequence(string="HELLO",list=["Hello","1"], tuples=("Hello","23"))
+# dictionary={"Ram":1,"Sita":2}  (key:value)
+#set(ordered collection of unique iteams)->{"Apple","Banana"}
+# boolean=true or false,
+# null=none
+#to fid ist type->type()
+"""a="Hello!"
+print(type(a))
+marks=24
+print("Rahul gets", marks ,"in maths")
+#input
+name=input("Hey! what is your name?")
+print("Hello!"+name)
+a= "Ram"
+b="Shaym"
+c="sita"
+print(a,b,c,sep=" ")
+d=complex(23+2j)
+print(type(d))"""
+#ASCII(American Standard Code For Information Interchange)-->Represents the character as a Numeric codes
+#A-Z -->65 - 90
+#a-z -->97 - 122
+#0-9 -->48 - 57
+#space -->32
+#in built function[ord() and chr() to know the ascii value of character or vise versa]
+char="e"
+ascii=87
+print(ord(char))
+print(chr(ascii))
+"""Operator
+1)arithmetic:-(subtraction),+(addition),*(multiplication),/(division-float),%(modulus-returns remainder),**(exponentiation-n1**n2[n1 raise to n2]),//(floor division-nearest whole number)
+
+2)Assignment:  =(assign)
++=(n2+=n1   -->n2=n2+n1)
+-=(n2-=n1   -->n2=n2-n1)
+*=
+%=
+/=
+//=
+**=
+>>=
+<<=
+|=
+^=
+&=
+
+3)comparision:
+==(compare),<,>,=<,=>,!=
+
+4)logical:
+and(returns true if both are true),or(returns true if one is true from two),not(reverse the result,returns false if it is true)
+a=1<5
+b=2<0
+print(a and b)
+print(a or b)
+print(not(a))
+
+5)Identity:
+is->return true if both are of same object
+is not->return true if both are not of same object
+a=10
+b="Ram"
+print(a is b)
+print(a is not b)
+
+
+6)membership:
+    sequnce of variable value present or not
+list=["Apple","Mango"]
+print("Apple" in list)
+print("Banana" not in list)
+
+7)Bitwise:
+&(and)(when both are 1 -true),|(Or)(when 1 also are 1 then true),^(xor)(same then 0),~(not)(~0=1,~1=0),<<(zero filled left shift),>>(signed right shift)
+decimal number-->1,0
+binary number-->1,0
+2->10
+3->11
+a=5
+b=4
+c=1
+print(a&b)
+print(a^b)
+print(a|b)
+print(a<<1)
+print(~c)
+
+type(a)
+
+precedence:
+Parentheses:
+
+( )
+Exponentiation:
+
+**
+Unary plus and minus:
+
++x, -x
+Multiplication, Division, Floor Division, Modulus:
+
+*, /, //, %
+Addition and Subtraction:
+
++, -
+Bitwise Shifts:
+
+<<, >>
+Bitwise AND:
+
+&
+Bitwise XOR:
+
+^
+Bitwise OR:
+
+|
+Comparison Operators:
+
+<, <=, >, >=, ==, !=
+Membership Operators:
+
+in, not in
+Identity Operators:
+
+is, is not
+Logical NOT:
+
+not
+Logical AND:
+
+and
+Logical OR:
+
+or"""
+"""
+control statement allows us to control the flow of the program
+1)if ,if-else,if-elif-else,if-else ladder:
+
+i=3
+n=1
+if i<1:
+    print("hello")
+else:
+    print("hey")
+#nested if statment
+if n>3:
+    print("apple")
+    if n==1:
+        print("Green apple")
+    else:
+        print("Red apple")
+        
+elif n==2:
+    print("banana")
+elif n==3:
+    print('stawberry')
+else:
+    print("Mango")
+    
+2)switch case/match case:
+num1=23
+num2=10
+op=input("Enter the operator you want=")
+match op:
+    case "+":
+        print(num1+num2)
+    case "-":
+        print(num1-num2)"""
+num1=5
+print("num1 is","even"if num1%2==0 else "odd")
+
+for i in range(10):
+    print("Hello!")
+
+i<10
+while i<10:
+    print("Fine")
+    i+=1

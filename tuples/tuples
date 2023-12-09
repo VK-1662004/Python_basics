@@ -1,0 +1,17 @@
+"""tup=(12,"red",233,"brown")
+print(tup)
+print(type(tup))
+print(tup[2])
+print(tup[len(tup)-1])
+tup2=tup[0:3]
+#print(tup2)
+sum=tup+tup2
+print(sum)
+tup.append(2)
+print(tup)"""
+tup=(1,2,"gel","fel")
+print(tup)
+print(type(tup),tup)
+print(tup[0:4])
+print(tup[1:3])
+

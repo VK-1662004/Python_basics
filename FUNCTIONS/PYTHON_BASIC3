@@ -1,0 +1,2 @@
+n=int(input("ENTER YOUR NATURAL NUMBERS"))
+sum_of_natural_num=

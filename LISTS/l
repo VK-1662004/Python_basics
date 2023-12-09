@@ -1,0 +1,2 @@
+list1 = ["Ram","Shaym","Hanuman",True,1]
+print(list1)

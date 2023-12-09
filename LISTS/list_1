@@ -1,0 +1,46 @@
+"""lenght in list1 is 5
+but index value 4"""
+
+list1 = ["Ram","Shaym","Hanuman",True,1]
+# list2 = [12,45,63]
+print(list1)
+# print(list2)
+# print(type(list1))
+# print(type(list2))
+# print(list1[0])
+# print(list1[1])
+# print(list1[2])
+# print(list2[0])
+# print(list2[1])
+# print(list2[2])
+# print(list1[3])
+# print(list1[4])
+# print(list1[-3])
+# print(list1[len(list1)-3])
+
+# if "Hanuman" in list1:
+#     print("yes")
+# else:
+#     print("no")
+    
+# if "2" in list1:
+#     print("yes")
+# else:
+#     print("no")
+    
+# if "HA" in "Hanuman":
+#     print("yes")
+# else:
+#     print("no")
+
+# print(list1)
+# print(list1[:])
+# print(list1[1:])
+# print(list1[1:-2])
+# print(list1[0:4])
+# print(list1[0:4:1])
+
+# lst = [i*i for i in range(10)]
+# print(lst)
+# lst = [i*i for i in range(10) if i%2==0]
+# print(lst)

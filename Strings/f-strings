@@ -1,0 +1,8 @@
+# strings="HELLO EVERYONE MY NAME IS {} AND I BELONG TO {}"
+name="vishakha"
+country="India"
+# print(strings.format(name,country))
+print(f"HELLO EVERYONE MY NAME IS {name} AND I BELONG TO {country}")
+rs=23.455
+a=f"amount RS. {rs:.2f}"
+print(a)

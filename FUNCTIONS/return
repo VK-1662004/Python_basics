@@ -1,0 +1,9 @@
+def add(a,b):
+    c=a+b
+    return c
+
+x=int(input("ENTER A="))
+y=int(input("ENTER B="))
+
+z=add(x,y)
+print(z)

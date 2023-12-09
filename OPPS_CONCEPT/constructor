@@ -1,0 +1,18 @@
+class person:
+    def __init__(self,name,occ):
+        
+        self.name=name
+        self.occ=occ
+    def  info(self):
+        print(f"Hey!I'm {self.name} and I work as a {self.occ}")
+
+a=person("Vishakha","Engineer")
+b=person("Kruapli","Financer")
+c=person("Sanika","Chef")
+d=person("Riddhi","Biotechnologist")
+a.info()
+b.info()
+c.info()
+d.info()
+
+    

@@ -1,0 +1,48 @@
+# print("HELLO 'Riddhi' HOW ARE YOU" )
+# a="ram"
+# b="shyam"
+# print(a,b,sep=" ")
+# print("hello",a)#contradiction by + or ,
+# c="Krupali"
+# print(c[0])
+# print(c[1])
+# print(c[2])
+# print(c[3])
+# print(c[4])
+# print(c[5])
+# print(c[6])
+# d="Sanika is a naughty girl"
+# for character in d:
+#     print(character)
+# string slicing and operators on string:
+#     1.len(a)
+#     string is a sequence of character is also called as array.
+# c="APPLE"
+# print(c[0:len(c)+1])#called as slicing
+# print(c[:len(c)+1])
+# print(c[1:len(c)])
+# print(c[len(c)-1:3])#last don't count
+# #diff bet function(len(a)) and methods(a.upper())
+# #set of built-in methods in string 
+# b="HELLO RANI"
+# 1:a.upper()
+# 2:a.lower()
+# 3:a.rstrip()--->replace the trailing character after the String 
+# 4:a.replace("m","c")
+# 5.b.split(" ")
+# 6.a.capitalize()#first character in uppercase
+# 7.print(a.center(50,.))
+# 8.a.count(a)
+# 9.a.endswith(.)--->o/p=False
+# 10.a.find(a)--->space counted and gives -1 if not there ,True or false
+# 11.a.index(a)
+# 12.isalnum(a)-->contains a-z,A-Z,0-9(True and False)
+# 13.isalpha(a)-->contains a-z,A-Z(True and False)
+# 14.islower(a)
+# 15.isprintable(a)-->no special character
+# 16.isspace:white space
+# 17.istitle:each word first letter capital
+# 18.isupper:all capital
+# 19.startwith()
+# 20.swapcase()-->capital to small and viceversa
+# 21.title-->coverts to capital

@@ -1,0 +1,23 @@
+data=list()
+for i in range (2): 
+    n=input("Name:") 
+    q=int(input("Quantity:")) 
+    a=float(input("Amount:")) 
+    data.append([n,q,a]) 
+    print(data)
+total=sum(d[2] for d in data) 
+max=0
+product=""
+print("\ntotal amount of product:",total) 
+for d in data:
+    if max<d[1]: 
+        max=d[1] 
+        product=d[0]
+print("\nproduct",product, "was sold the most") 
+total=sum(d[2] for d in data)
+amount=len(d) 
+avg=total/amount print("\naverage:",avg)
+p=input("\nenter name of product to see specific detalls:") 
+for d in data:
+if d[0]==p: 
+    print("Name:",d[0],"Quantity:",d[1],"Amount:",d[2])

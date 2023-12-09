@@ -1,0 +1,3 @@
+print("AREA OF THE CIRCLE")
+r=int(input("ENTER THE VALUE OF RADIUS"))
+print("AREA OF CIRCLE",3.14*r*r)

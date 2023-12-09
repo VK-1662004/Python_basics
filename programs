@@ -1,0 +1,8 @@
+"""r=int(input("Enter the radius of circle"))
+vol=4/3*(3.14*r*r*r)
+vol=int(vol)
+print("Volume of the circle ",vol,"whose radius is",r)"""
+
+celsius=int(input("Enter the celsius value="))
+farah_temp=(celsius*(9/5))+32
+print(farah_temp)

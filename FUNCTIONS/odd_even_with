@@ -1,0 +1,11 @@
+print("CHECK ODD AND EVEN NUMBERS\n")
+ a=int(input("ENTER 1ST NUMBER=")) 
+    print(a)
+def check(a):
+    if (a%2==0):
+        print("even")
+    else:
+        print("odd")
+  
+      
+check(a)

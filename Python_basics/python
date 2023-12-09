@@ -1,0 +1,84 @@
+# <!-- #PYTHON 
+# "Python was made by Guido Van Rossum in 1991 while watching monty python circus show ,he kept the name.
+# Programming is the set of instruction given to the computer for doing some specific task.
+# Python is the dynamically typed general purpose programming language whuch support both object oriented and fuctional programming langauage.
+# Intrepreted and high level programming language."
+# #IDENTATION 
+# #MODULES AND PIP
+# "Modules are the set of codes borrowed. 
+# Modules are of two type built-in and external modules.
+# Pip used for the external modules .
+# #COMMENTS
+# #used for one line comment.But for multiline we used multiline string by using double or single quotes."
+# #PRINT
+# print(1)
+# print("HELLO")
+
+# #Escape sequence character
+# \n ,\t  ,\"..... \"
+# #VARIABLES
+# which holds value
+# #DATATYPE
+# Type of data which use to operate different type of data without causing error.
+# 1. Numeric data: int, float, complex
+# int: 3, -8, 0
+# float: 7.349, -9.0, 0.0000001
+# complex: 6 + 2i
+# 2. Text data: str
+# str: "Hello World!!!", "Python Programming"
+
+# 3. Boolean data:
+# Boolean data consists of values True or False.
+
+# 4. Sequenced data: list, tuple
+# list: A list is an ordered collection of data with elements separated by a comma and enclosed within square brackets. Lists are mutable and can be modified after creation.
+
+# Example:
+
+# list1 = [8, 2.3, [-4, 5], ["apple", "banana"]]
+# print(list1)
+
+# Output:
+
+# [8, 2.3, [-4, 5], ['apple', 'banana']]
+
+# Tuple: A tuple is an ordered collection of data with elements separated by a comma and enclosed within parentheses. Tuples are immutable and can not be modified after creation.
+
+# Example:
+
+# tuple1 = (("parrot", "sparrow"), ("Lion", "Tiger"))
+# print(tuple1)
+
+# Output:
+
+# (('parrot', 'sparrow'), ('Lion', 'Tiger'))
+
+# 5. Mapped data: dict
+# dict: A dictionary is an unordered collection of data containing a key:value pair. The key:value pairs are enclosed within curly brackets.
+
+# Example:
+
+# dict1 = {"name":"Sakshi", "age":20, "canVote":True}
+# print(dict1)
+
+# Output:
+
+# {'name': 'Sakshi', 'age': 20, 'canVote': True}
+
+# type(a) -->
+
+# <!-- #OPERATORS -->
+# <!-- print(5+6)-addition
+# print(15-6)-subtract
+# print(15*6)-multiplication
+# print(15/6)-division
+# print(15//6)-floor division
+# print(5%3)-gives remainder -modulus -->
+# <!-- print(2**4) -->
+# #TYPE CASTING
+# implicit(convert by python itself from one level to another eg.int=1,float=2.3
+#             int+flaot)
+# explicit(convert by a developer a="1",b="2"
+#           eg.int(a)+int(b))
+# #INPUT
+# a=int(input(a=))

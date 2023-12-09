@@ -1,0 +1,6 @@
+def name():
+    """write yor name"""
+    a=input("your name")
+    
+name()
+print(name._ _docstring_ _)

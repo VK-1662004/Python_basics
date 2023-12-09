@@ -1,0 +1,22 @@
+#condition--> ==, >, <, <=, >=, !=
+#if,if-else,if-else-elif,nested if-else-elif
+i=3
+n=1
+if i<1:
+    print("hello")
+else:
+    print("hey")
+#nested if statment
+if n>3:
+    print("apple")
+    if n==1:
+        print("Green apple")
+    else:
+        print("Red apple")
+        
+elif n==2:
+    print("banana")
+elif n==3:
+    print('stawberry')
+else:
+    print("Mango")

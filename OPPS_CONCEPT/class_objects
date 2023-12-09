@@ -1,0 +1,21 @@
+class person:
+    name="Vishakha"
+    age=19
+    home="Thane"
+    def info(self):
+        print(f"The {self.name} is the {self.age} years old and live in {self.home}")
+a=person()
+b=person()
+c=person()
+a.name="SRK"
+a.age=50
+a.home="Mumbai"
+b.name="Prabha"
+b.age=50
+b.home="Andheri"
+a.info()
+b.info()
+c.info()   
+    
+    
+ 
